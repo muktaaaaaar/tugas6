@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tugas6-2</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body{
+            background-color: darkgray;
+            flex-direction: row;
+            height: 600px;
+            margin: 0;
+            display: flex;
+        }
+        .nav {
+            background-color: rgb(245, 245, 229);
+            flex: 1;
+        }
+        .div2 {
+            display: flex;
+            flex-direction: column;
+            flex: 6;
+        }
+        .header {
+            background-color: rgb(245, 247, 168);
+            flex: 3;
+            height: 100px;
+        }
+        .article {
+            background-color: rgb(250, 248, 134);
+            flex: 1;
+            height: 420px;
+        }
+        .aside {
+            background-color: rgb(212, 210, 81);
+            flex: 1;
+            height: 420px;
+        }
+        .header, .footer, .article, .nav {
+            padding: 1em;
+        }
+        .footer {
+            background-color: rgb(224, 222, 80);
+            height: 100px;
+        }
+        .div5 {
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">nav</nav>
+    <div class="div2">
+        <header class="header">header</header>
+        <div class="div5">
+            <article class="article">article</article>
+            <aside class="aside">aside</aside>
+        </div>
+    <div class="div2"> <footer class="footer"></footer></div>
+    </div>
+</body>
+</html>
